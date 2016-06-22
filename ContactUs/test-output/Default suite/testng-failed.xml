@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.efs.ValidateContactUsTest">
+        <methods>
+          <include name="Empty"/>
+          <include name="validMessage"/>
+          <include name="validInput"/>
+          <include name="CloseBrowser"/>
+          <include name="validEmail"/>
+          <include name="OpenBrowser"/>
+        </methods>
+      </class> <!-- com.efs.ValidateContactUsTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
